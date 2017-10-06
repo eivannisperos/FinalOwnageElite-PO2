@@ -75,22 +75,22 @@ button {
 
 .submit {
   color: white;
-  background-color: #43B044;
+  background-color: #F2855C;
   transition: background-color 0.5s ease;
 }
 
-.submit:hover {
-  background-color: #13D015;
+.submit:hover, .submit:active, .submit:focus {
+  background-color: #FF4D2B;
 }
 
 .reset {
   color: white;
-  background-color: #667788;
+  background-color: #F2855C;
   transition: background-color 0.5s ease;
 }
 
-.reset:hover {
-  background-color: #CCDDEE;
+.reset:hover, .reset:active, .reset:focus {
+  background-color: #FF4D2B;
 }
 
 /*form*/
@@ -163,7 +163,11 @@ label {
 .example-item {
   margin: 2em;
   color: white;
-  background-color: #CCDDEE;
+}
+
+.color-box {
+  color: white;
+  margin: 2em;
   width: 10em;
   height: 10em;
 }
@@ -176,13 +180,17 @@ label {
 /*color swatches*/
 
 #color1 {
-  background-color: #43B044;
+  background-color: #292D9F;
 }
 
 #color2 {
-  background-color: #13D015;
+  background-color: #FF4D2B;
 }
 
 #color3 {
-  background-color: #667788;
+  background-color: #F2855C;
+}
+
+#color4 {
+  background-color: #EFE7DA;
 }
