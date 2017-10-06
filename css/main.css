@@ -1,6 +1,16 @@
+@font-face {
+  font-family: 'header';
+  src: url("fonts/analogue86blackoblique.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'bodytext';
+  src: url("fonts/analogue55regular.ttf") format('truetype');
+}
+
 body {
   padding: 1em;
-  font-family: 'Roboto';
+  font-family: 'bodytext', sans-serif;
   font-size: 1em;
 }
 
@@ -14,11 +24,7 @@ Headings
 */
 
 h1, h2, h3, h4 {
-  font-family: 'Catamaran';
-}
-
-h2 {
-  font-size: 1.3em;
+  font-family: 'header', sans-serif;
 }
 
 /*style sheet grid*/
