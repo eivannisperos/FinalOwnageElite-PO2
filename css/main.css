@@ -1,0 +1,188 @@
+body {
+  padding: 1em;
+  font-family: 'Roboto';
+  font-size: 1em;
+}
+
+code {
+  margin: 1em;
+  width: 50%;
+}
+
+/*
+Headings
+*/
+
+h1, h2, h3, h4 {
+  font-family: 'Catamaran';
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+/*style sheet grid*/
+#grid {
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+
+#nav-panel {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+#content-right {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+/*
+main style guide navigation
+*/
+#main-nav ul {
+  list-style: none;
+}
+
+#main-nav ul li {
+  margin: 1em;
+}
+
+/*in-text-link*/
+.in-text-link {
+  text-decoration: none;
+}
+
+/*navigation button style*/
+#main-nav-runnr ul{
+  list-style: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.nav-link:visited {
+  color: black;
+}
+
+/*Submit and Reset buttons */
+button {
+  border: none;
+  width: 10em;
+  height: 2em;
+}
+
+.submit {
+  color: white;
+  background-color: #43B044;
+  transition: background-color 0.5s ease;
+}
+
+.submit:hover {
+  background-color: #13D015;
+}
+
+.reset {
+  color: white;
+  background-color: #667788;
+  transition: background-color 0.5s ease;
+}
+
+.reset:hover {
+  background-color: #CCDDEE;
+}
+
+/*form*/
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  width: 50%;
+  border-radius: 0.5em;
+}
+
+label {
+  margin: 1em 0 1em 0;
+}
+
+/*main navigation*/
+#main-nav-runnr {
+  width: 100%;
+}
+
+#main-nav-runnr ul {
+  display: flex;
+  flex-direction: row;
+}
+
+#main-nav-runnr ul li {
+
+}
+
+/*product listing*/
+.listing {
+  display: flex;
+  background-color: #CCDDEE;
+  border-radius: 1em;
+  padding: 1em;
+}
+
+.listing-img {
+  width: 7em;
+  height: 7em;
+  border-radius: 50%;
+  margin: 1em;
+}
+
+#listing-go {
+  display: inline-block;
+  align-self: flex-end;
+  margin-left: auto;
+}
+
+/*main-nav*/
+.home {
+  margin-right: auto;
+}
+
+.nav-link {
+  border: none;
+  text-decoration: none;
+  margin: 1em;
+}
+
+/*grid structure*/
+.vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+.example-item {
+  margin: 2em;
+  color: white;
+  background-color: #CCDDEE;
+  width: 10em;
+  height: 10em;
+}
+
+.horizontal {
+  display: flex;
+  flex-direction: row;
+}
+
+/*color swatches*/
+
+#color1 {
+  background-color: #43B044;
+}
+
+#color2 {
+  background-color: #13D015;
+}
+
+#color3 {
+  background-color: #667788;
+}
