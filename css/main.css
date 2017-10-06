@@ -24,6 +24,11 @@ code {
   width: 200%;
 }
 
+#citations-content {
+  display: flex;
+  flex-direction: column;
+}
+
 img {
   width: 100%;
 }
@@ -179,6 +184,7 @@ label {
 .example-item {
   margin: 2em;
   color: white;
+  width: 25%;
 }
 
 .color-box {
