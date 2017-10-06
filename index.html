@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>P01 | process</title>
     <meta charset="utf-8" />
@@ -12,7 +12,7 @@
   <body>
     <h1>VHS STORE STYLEGUIDE</h1>
 
-    <section id="grid">
+    <div id="grid">
       <div id="nav-panel">
         <nav id="main-nav">
           <ul>
@@ -191,7 +191,7 @@
           <h2>COMBINED ELEMENTS</h2>
           <div>
             <h3>Main Navigation</h3>
-            <nav id="main-nav-runnr">
+            <nav id="vhs-nav">
               <ul>
                 <li class="home">
                   <a class="nav-link" href="index.html">Runnr</a>
@@ -224,29 +224,20 @@
             <h3>Product Listing</h3>
             <div class="listing">
               <div class="listing-content">
-                <h2>Grab Us Some BubbleTea!</h2>
-                <h3 class="school">Simon Fraser University</h3>
-                <p>
-                  Grab us some bubble tea from Bubble World! We are in the <a class="in-text">Mezzanine</a>.
-                </p>
+                <a href="#"><img class="product" src="img/sampleProduct.png" alt="product 1"/></a>
               </div>
-
-              <button class="submit" type="button" id="listing-go">Go!</button>
+              <div class="listing-content">
+                <a href="#"><img class="product" src="img/sampleProduct.png" alt="product 1"/></a>
+              </div>
+              <div class="listing-content">
+                <a href="#"><img class="product" src="img/sampleProduct.png" alt="product 1"/></a>
+              </div>
             </div>
 
             <code>
-              &lt;div class="listing"&gt;
-                &lt;img src="img/img1" alt="example" /&gt;
-                &lt;div class="listing-content"&gt;
-                  &lt;h2&gt;Grab Us Some BubbleTea!&lt;/h2&gt;
-                  &lt;h3&gt;Simon Fraser University&lt;/h3&gt;
-                  &lt;p&gt;
-                    Grab us some bubble tea from Bubble World! We are in the <a class="in-text">Mezzanine</a>.
-                  &lt;/p&gt;
-                &lt;/div&gt;
 
-                &lt;div&gt;
-                  &lt;button type="button" id="submit"&gt;Go!&lt;/button&gt;
+              &lt;div class="listing"&gt;
+                  &lt;a href="#"&gt;&lt;img class="product" src="img/sampleProduct.png" href="#" alt="product 1"/&gt;&lt;/a&gt;
                 &lt;/div&gt;
               &lt;/div&gt;
             </code>
@@ -330,11 +321,9 @@
                 <h4>Item 4</h4>
               </div>
             </div>
-          </section>
           </div>
         </section>
       </div>
-    </section>
-
+    </div>
   </body>
 </html>

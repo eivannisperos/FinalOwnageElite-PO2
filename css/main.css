@@ -74,7 +74,7 @@ main style guide navigation
 }
 
 /*navigation button style*/
-#main-nav-runnr ul{
+#vhs-nav ul{
   list-style: none;
 }
 
@@ -129,38 +129,29 @@ label {
 }
 
 /*main navigation*/
-#main-nav-runnr {
+#vhs-nav {
   width: 100%;
 }
 
-#main-nav-runnr ul {
+#vhs-nav ul {
   display: flex;
   flex-direction: row;
 }
 
-#main-nav-runnr ul li {
-
-}
 
 /*product listing*/
 .listing {
   display: flex;
-  background-color: #CCDDEE;
-  border-radius: 1em;
-  padding: 1em;
-}
-
-.listing-img {
-  width: 7em;
-  height: 7em;
-  border-radius: 50%;
   margin: 1em;
 }
 
-#listing-go {
-  display: inline-block;
-  align-self: flex-end;
-  margin-left: auto;
+.listing-content {
+  margin: 1em;
+}
+
+.listing-content:hover {
+  box-shadow: 7px 7px #292D9F;
+  cursor: pointer;
 }
 
 /*main-nav*/
